@@ -5,7 +5,7 @@ local humi = 0
 local humi_dec=0
 local temp = 0
 local temp_dec=0
-local API_endpoint = "18.191.55.98:8080"
+local API_endpoint = "18.191.3.166:8080"
 
 function getTemp()
     status, temp, humi, temp_dec, humi_dec = dht.read11(dht_pin)
